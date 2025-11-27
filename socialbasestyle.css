@@ -1,0 +1,89 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+}
+
+
+.logo {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo img {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+
+.filtros-container {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+
+.campo {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    margin-top: 60px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.campo input,
+.campo select {
+    padding: 7px;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid #675fed;
+    background: #1a1a1a;
+    color: white;
+    width: 260px;
+    margin-top: 6px;
+    text-align: center;
+    outline: none;
+}
+
+
+.btn-buscar {
+    display: block;
+    margin: 20px auto 10px auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: #675fed;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-buscar:hover {
+    background-color: #4d46c7;
+}
+
+
+#resultado {
+    width: 100%;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+}
+
+
+#resultado div {
+    background: #675fed;
+    color: white;
+    width: 420px;
+    padding: 12px;
+    border-radius: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    font-weight: bold;
+}

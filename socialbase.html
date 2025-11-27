@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Social employee data base">
+    <link rel="stylesheet" href="socialbasestyle.css">
+    <title>SocialBase</title>
+</head>
+
+<body>
+
+    <div class="logo">
+        <img src="Assets/Base.png" alt="">
+        <div class="filtros-container">
+
+            <div class="campo">
+                <label>Filtrar por Departamento</label>
+                <select id="filtroDepartamento">
+                    <option value="">Selecione um departamento</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Filtrar por Email</label>
+                <input type="text" id="filtroEmail" placeholder="Digite o email">
+            </div>
+
+        </div>
+
+        <button id="btnBuscar" class="btn-buscar">Buscar</button>
+
+        <div id="resultado"></div>
+        <script src="Socialdatabase.js"></script>
+</body>
+
+</html>
